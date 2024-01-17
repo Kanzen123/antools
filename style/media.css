@@ -1,0 +1,158 @@
+@media screen and (max-width : 1260px) {
+    .catalog__first-pos {
+        flex-direction: column;
+
+    }
+
+    .catalog__second-pos {
+        flex-direction: column;
+    }
+
+    .catalog__card {
+        max-width: 330px;
+        width: 100%;
+    }
+
+    .catallog__all-pos {
+        flex-direction: row;
+    }
+
+    .catalog__card-info {
+        height: 99px;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    .header__nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header__list {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width : 1060px) {
+    .newcomer__pos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__contact-list {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width : 960px) {
+    .header__list-reg {
+        flex-wrap: wrap;
+
+    }
+
+    .header__list {
+        gap: 30px;
+    }
+
+    .catallog__all-pos {
+        gap: 85px;
+    }
+
+}
+
+@media screen and (max-width : 780px) {
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .catallog__all-pos {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width : 730px) {
+    .catallog__all-pos {
+        justify-content: center;
+        padding: 80px 0 0 0;
+    }
+}
+
+@media screen and (max-width : 610px) {
+    .newcomer__card-first-pos {
+        flex-direction: column;
+    }
+
+    .become-tools {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .become__about-pos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .become__about-title-text p {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:540px) {
+    .header__list-a {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .catalog {
+        padding: 100px 0 0 0;
+    }
+
+    .catalog__title {
+        text-align: center;
+    }
+
+    .catalog__text {
+        width: auto;
+    }
+
+    .newcomer {
+        padding: 100px 0 0 0;
+    }
+
+    .footer__contact-list {
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: center;
+    }
+
+    .become__about-title-text p {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .catalog__title {
+        font-size: 44px;
+    }
+
+    .newcomer__card-pos {
+        gap: 24px;
+    }
+
+    .search-input {
+        font-size: 13px;
+    }
+
+    .become__btn-default {
+        font-size: 14px;
+    }
+
+
+}
